@@ -6,7 +6,7 @@
 ## การตั้งค่าโปรเจกต์
 ตรวจสอบให้แน่ใจว่าได้ติดตั้งซอฟต์แวร์ต่อไปนี้ก่อนเริ่มโปรเจกต์:
 
-- [Node.js](https://nodejs.org/en) (สำหรับ NextJS)  
+- [Node.js](https://nodejs.org/en/download) (สำหรับ NextJS)  
 
 ### ลง Next.js สำหรับ Frontend
 ```bash
