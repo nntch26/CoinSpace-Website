@@ -1,40 +1,12 @@
 import React from 'react'
+import Footer from '../components/Footer'
 
 function Homepage() {
     return (
         <div className="bg-[#1a1b2e] text-white min-h-screen">
 
-
-            {/* navbar */}
-            <nav className="p-4 flex justify-between items-center bg-[#1F1F1F]">
-                {/* Logo */}
-                <div className="text-3xl font-bold">
-                    <span className="text-white">Coin</span>
-                    <span className="text-[#6058EA]">Space .</span>
-                </div>
-
-                <div className="flex gap-6 items-center">
-                    {/* Navigation Links */}
-                    <div className="flex gap-6">
-                        <h2 className="text-white cursor-pointer hover:text-[#6058EA]">Home</h2>
-                        <h2 className="text-white cursor-pointer hover:text-[#6058EA]">Post</h2>
-                        <h2 className="text-white cursor-pointer hover:text-[#6058EA]">About</h2>
-                    </div>
-
-                    {/* Profile Icon */}
-                    <div className="flex gap-4">
-                        <button className="p-2 rounded-full bg-gray-800 hover:bg-gray-700">
-                            <svg className="h-6 w-6 text-white" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M16 7a4 4 0 11-8 0 4 4 0 018 0zM12 14a7 7 0 00-7 7h14a7 7 0 00-7-7z" />
-                            </svg>
-                        </button>
-                    </div>
-                </div>
-            </nav>
-
-
-            <main className="container mx-auto px-4">
-                <div className="bg-[#1E1B3E] rounded-xl p-8 mb-8">
+            <main className="container mx-auto">
+                <div className="relative bg-[#1E1B3E] rounded-xl p-8 mb-[12rem] top-32">
                     <div className="flex justify-between items-center px-16">
                         <div className="max-w-lg">
                             <h1 className="text-[5.5rem] font-bold">
@@ -253,7 +225,9 @@ function Homepage() {
                         </div>
                     </div>
                 </section>
+
             </main>
+                <Footer />
         </div>
     )
 }
